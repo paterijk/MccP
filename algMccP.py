@@ -1,5 +1,5 @@
 import copy, math
-class algGAMMAP(object):
+class algMccP(object):
     def __init__(self, objects, relation, min, max, cut, bipolar):
         
         self.objects = objects

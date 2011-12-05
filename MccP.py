@@ -5,7 +5,7 @@ import subprocess
 
 import PyXMCDA
 
-from algGAMMAP import *
+from algMccP import *
 
 from optparse import OptionParser
 
@@ -72,7 +72,7 @@ def main(argv=None):
 
         if not errorList :
             
-            alg = algGAMMAP(alternativesId, alternativesRel, relationMin, relationMax, relationCut, relationBipolar)
+            alg = algMccP(alternativesId, alternativesRel, relationMin, relationMax, relationCut, relationBipolar)
             results = alg.Run()
             
             fo = open(out_dir+"/output.xml",'w')
