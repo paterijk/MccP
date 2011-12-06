@@ -1,1 +1,1 @@
-python GammaP.py -i in1 -o out1
+python MccP.py -i in1 -o out1
